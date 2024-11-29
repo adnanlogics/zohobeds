@@ -22,6 +22,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 BEDS24_BASE_URL = config('BEDS24_BASE_URL')
 BEDS24_API_TOKEN = config('BEDS24_API_TOKEN')
+ZOHO_CLIENT_ID = config("ZOHO_CLIENT_ID")
+ZOHO_CLIENT_SECRET = config("ZOHO_CLIENT_SECRET")
+ZOHO_REDIRECT_URI = config("ZOHO_CLIENT_SECRET")
+ZOHO_AUTH_URL = config("ZOHO_AUTH_URL")
+ZOHO_TOKEN_URL = config("ZOHO_TOKEN_URL")
+ZOHO_API_BASE_URL = config("ZOHO_API_BASE_URL")
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-oq+&vg$wcf*4-)kk&owkyj8bqfzt6o(z-d3xm=4xcz^q=z%db1'
 
